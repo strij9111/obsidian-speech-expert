@@ -1,0 +1,21 @@
+{
+  "name": "speech-expert",
+  "version": "0.1.0",
+  "description": "Turn Russian audio attachments into transcripts and optional summaries with Speech Expert.",
+  "private": true,
+  "license": "MIT",
+  "author": "Sergey Komarov",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "1.14.4",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

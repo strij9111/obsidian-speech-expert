@@ -1,0 +1,6 @@
+.speech-expert-path { overflow-wrap: anywhere; }
+.speech-expert-job { padding: 1em 0; border-bottom: 1px solid var(--background-modifier-border); }
+.speech-expert-job .setting-item { border-top: 0; padding-bottom: 0; }
+.speech-expert-job .setting-item-control { flex-wrap: wrap; }
+.speech-expert-job code { user-select: text; overflow-wrap: anywhere; }
+.speech-expert-warning { color: var(--text-warning); }

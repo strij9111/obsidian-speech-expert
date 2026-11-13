@@ -1,0 +1,10 @@
+{
+  "id": "speech-expert",
+  "name": "Speech Expert",
+  "version": "0.1.0",
+  "minAppVersion": "1.11.4",
+  "description": "Transcribe Russian audio attachments with a choice of speech models, optional summaries, and resumable result retrieval.",
+  "author": "Sergey Komarov",
+  "authorUrl": "https://speech-expert.ru",
+  "isDesktopOnly": false
+}
